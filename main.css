@@ -1,0 +1,64 @@
+body{
+    background: rgb(247, 170, 3);
+}
+.wrapper{
+    max-width: 80%;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 150%;
+    color: blueviolet;
+}
+.item{
+    width: 450px;
+    height: 250px;
+    margin: 2%;
+    display: inline-block;
+    transition: all 1s ease-in;
+}
+.item1{
+    width: 450px;
+    height: 250px; 
+background-image: url("https://i.pinimg.com/originals/45/8a/5b/458a5bb7b033c4cd66b2ec917428794b.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: 50% 20%;
+}
+
+.item2{
+    width: 450px;
+    height: 250px;
+    background-image: url("https://cdn.idntimes.com/content-images/community/2018/04/viggo-mortensen-aragorn-211edfaaf32bdf088ced92b7715ec91d.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.item3{
+    width: 450px;
+    height: 250px;
+    background-color: black;
+    background-image: url("http://vladislav-web.ru/homeworks/lesson-5/src/easy-lesson/img/Rohans_soldier.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.item4{
+    width: 450px;
+    height: 250px;
+    background-image: url("http://www.varvar.ru/arhiv/gallery/battle_art/jimeno/images/justo-jimeno-2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}.item5{
+    width: 450px;
+    height: 250px;
+    background-image: url("http://images4.fanpop.com/image/photos/14700000/Lord-of-the-Rings-lord-of-the-rings-14783816-1128-648.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}  
+
+.item:hover{
+    background-size: 120%;
+}
